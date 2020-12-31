@@ -12,11 +12,9 @@
 
 ActiveRecord::Schema.define(version: 2020_12_14_155636) do
 
-  create_table "artipieces", force: :cascade do |t|
+  create_table "artpieces", force: :cascade do |t|
     t.string "name"
-    t.string "image1"
-    t.string "image2"
-    t.string "image3"
+    t.string "image"
     t.string "audio"
     t.string "details"
     t.string "artist"
