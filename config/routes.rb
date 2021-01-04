@@ -5,7 +5,7 @@ Rails.application.routes.draw do
       resources :users
       resources :artpieces
       resources :categories
-      resources :collections
+      resources :tours
       resources :capture_images
       post '/auth', to: 'auth#create'
     end 

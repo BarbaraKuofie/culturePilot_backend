@@ -4,7 +4,7 @@
 # Examples:
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-barbara = User.create(name:'barbara', username: 'bkuofie', email: 'bkuofie@yahoo.com', password:'12345')
+barbara = User.create(name:'barbara', username: 'bkuofie', image: '' email: 'bkuofie@yahoo.com', password:'12345')
 
 painting = Category.create( title:'Painting', description:' An image (artwork) created using pigments (color) on a surface (ground) such as paper or canvas')
 architecture = Category.create(title: 'Architecture', description:'Buildings and other physical structures. ')
